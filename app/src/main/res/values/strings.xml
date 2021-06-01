@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SelecaoGlobo</string>
+    <string name="title_activity_main_globo_challenge">MainActivity</string>
+    <string name="title_expensive_products">Produtos mais caros</string>
+    <string name="title_all_products">Todos os produtos</string>
+    <string name="title_cheaper_products">Produtos mais baratos</string>
+</resources>

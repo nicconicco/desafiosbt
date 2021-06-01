@@ -1,0 +1,40 @@
+---
+
+1.0.0
+
+Creating in my view a clean architecture in android, with
+
+[ view ]
+[ viewModel ]
+[ router ] * opcional
+[ com.nicco.api.domain ]
+[ repository ]
+[ datasource ]
+[ api ]
+[ app modules ] * opcional
+
+------
+
+Responsabilities:
+
+[ view ] - Just collect inputs of user and show new infos comming from viewmodel
+[ viewModel ] - Collect inputs from view, and send to a use case (business layer) and controll state of lyfecicle of view
+[ router ] - if need it in future when app goes to differents paths.
+[ com.nicco.api.domain ] - create use cases of app, call repository and receive infos and change if it need it.
+[ repository ] - decide what way the app will collect information, from web or local, cache, so on. Make mapper between modelUi and response.
+[ datasource ] - implementation of web layer and local
+[ api ] - create okhttp call to rest api
+[ app modules ] - if the application goes to a big sdk, create modularization of view, to not acumulate alot of fragments or activities in app module.
+
+-
+
+Updates:
+
+Using Mockk to unit test.
+
+Okhttp working.
+
+Resource class to viewmodel checked with more confident values.
+
+
+

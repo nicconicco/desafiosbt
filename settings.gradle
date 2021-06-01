@@ -1,0 +1,6 @@
+include ':business'
+include ':api'
+include ':datasource'
+include ':repository'
+include ':app'
+rootProject.name = "SelecaoGlobo"
